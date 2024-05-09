@@ -10,3 +10,10 @@
 - 效果图：
 
 ![image](https://github.com/Zzzhxxxx/Obsidian-Css-Share/assets/131342513/ba52c551-28f1-4139-a3c8-031b6ef3b307)
+
+## 2 highlight
+
+- 作用：改变高亮样式。
+- 效果图：
+
+![image](https://github.com/Zzzhxxxx/Obsidian-Css-Share/assets/131342513/1c6f25a7-9660-4c8e-8480-cb5ef909b4a2)
