@@ -1,0 +1,17 @@
+/*这段是卡片样式*/
+body .nav-folder.mod-root > .nav-folder-children > .nav-folder {
+    border: 1px solid #aa989854;
+    margin: 5px 4px;
+    border-radius: 3px;
+    border-left: 2px solid #83b4cd54;
+}
+
+/*这段是分割线样式*/
+/*.nav-folder.mod-root > .nav-folder-children > .nav-folder::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: calc(100% + 30px);
+    background: var(--tab-outline-color);
+    margin: 5px 0 5px -15px;
+}*/
