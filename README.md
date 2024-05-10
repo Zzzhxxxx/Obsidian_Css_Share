@@ -4,21 +4,21 @@
 - 我会在这里分享一些自定义的css代码段并展示其作用。
 - 欢迎讨论！
 
-## 1 custom_folder_icon
+# 1 custom_folder_icon
 
 - 作用：改变文件夹/md文件/图片文件的图标。
 - 效果图：
 
 ![image](https://github.com/Zzzhxxxx/Obsidian-Css-Share/assets/131342513/ba52c551-28f1-4139-a3c8-031b6ef3b307)
 
-## 2 highlight
+# 2 highlight
 
 - 作用：改变高亮样式。
 - 效果图：
 
 ![image](https://github.com/Zzzhxxxx/Obsidian-Css-Share/assets/131342513/1c6f25a7-9660-4c8e-8480-cb5ef909b4a2)
 
-## 3 floder_split
+# 3 floder_split
 
 - 作用：对所有一级文件夹进行分割。
 - 效果图：css代码里提供了两种样式。 
