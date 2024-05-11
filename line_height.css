@@ -1,0 +1,76 @@
+body {
+  --h1-line-height: 1.8;
+  --h2-line-height: 1.6;
+  --h3-line-height: 1.6;
+  --h4-line-height: 1.5;
+  --h5-line-height: 1.5;
+  --h6-line-height: 1.5;
+}
+.modal-bg { backdrop-filter: blur(5px); }
+body {
+  --heading-spacing: calc(var(--p-spacing) * 2.5); /*阅读模式标题间距，*后面的3是倍数可以自己调*/
+}
+.cm-s-obsidian .cm-line.HyperMD-header {
+  padding-top: unset !important; /*编辑模式标题间距*/
+}
+
+/* 编辑模式下的行间距和段间距 */
+.cm-s-obsidian .cm-line {
+  padding-top: 1.25em; /* 段首间距调整为0.75em */
+  padding-bottom: 1.25em; /* 段尾间距调整为0.75em */
+}
+
+/* 编辑模式下非段落元素（如列表）的行间距 */
+.cm-s-obsidian .CodeMirror-line:not(.CodeMirror-line-wrapping) {
+  padding-bottom: 0.75em; /* 如果您希望这里有间距的话 */
+}
+
+/* 调整编辑模式下列表的间距，使其与预览模式类似 */
+.cm-s-obsidian .CodeMirror-line.CodeMirror-line-wrapping {
+  padding-top: 0.3em; /* 列表项之间的间距，根据需求调整 */
+  padding-bottom: 0.3em; /* 列表项之间的间距，根据需求调整 */
+}
+
+/* 编辑模式下调整标题后内容的上间距 */
+:root {
+  --header-bottom-spacing: 0.05em; /* 根据需要调整这个值 */
+}
+
+.cm-s-obsidian .cm-line.HyperMD-header {
+  padding-bottom: var(--header-bottom-spacing) ; /* 使用 !important 确保样式覆盖 */
+}
+
+.cm-s-obsidian .cm-line.HyperMD-header + .cm-line:not(.HyperMD-header):not(:has(>br:only-child)) {
+  padding-top: var(--header-bottom-spacing) ; /* 使用 !important 确保样式覆盖 */
+}
+
+/* 预览模式下的段落行间距和段间距 */
+.markdown-preview-view p {
+  line-height: 1.6; /* 行间距保持一致 */
+  margin-top: 1.25em; /* 段首间距保持一致 */
+  margin-bottom: 1.25em; /* 段尾间距保持一致 */
+}
+
+/* 预览模式下列表项的行间距和段间距 */
+.markdown-preview-view ul li, 
+.markdown-preview-view ol li {
+  line-height: 1.6; /* 行间距保持一致 */
+  margin-top: 0em; /* 列表项之间的间距保持一致 */
+  margin-bottom: 0em; /* 列表项之间的间距保持一致 */
+}
+
+/* 预览模式下一级列表的整体边距 */
+.markdown-preview-view > ul, 
+.markdown-preview-view > ol {
+  margin-top: 0.75em; /* 一级列表与文本之间的间距保持一致 */
+  margin-bottom: 0.75em; /* 一级列表与文本之间的间距保持一致 */
+}
+
+/* 预览模式下嵌套列表的间距调整 */
+.markdown-preview-view ul ul, 
+.markdown-preview-view ul ol, 
+.markdown-preview-view ol ul, 
+.markdown-preview-view ol ol {
+  margin-top: 0.2em; /* 嵌套列表与上级列表项之间的间距保持一致 */
+  margin-bottom: 0.2em; /* 嵌套列表与上级列表项之间的间距保持一致 */
+}
