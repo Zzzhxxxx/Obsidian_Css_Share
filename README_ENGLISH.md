@@ -35,7 +35,7 @@
 
 # 4 table
 
-- What it does: The table styles in Obsidian are a dime a dozen, this css snippet optimizes the table styles. It also adjusts the spacing between the table and the body, and can be used with ==5 line_height==.
+- What it does: The table styles in Obsidian are a dime a dozen, this css snippet optimizes the table styles. It also adjusts the spacing between the table and the body, and can be used with `5 line_height`.
 - Rendering:
 
 ![image](https://github.com/Zzzhxxxx/Obsidian-Css-Share/assets/131342513/59e04f27-2497-4590-b28c-d69ffaf9d1d9)
