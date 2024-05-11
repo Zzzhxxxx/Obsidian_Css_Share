@@ -32,3 +32,15 @@
 ![image](https://github.com/Zzzhxxxx/Obsidian-Css-Share/assets/131342513/fe611a47-8a80-4ab3-83ef-1ee96945dad2)
 
 - 需要注意的是，分割线样式在注释里。如果您觉得分割线样式更适合您，可以手动去掉注释。
+
+# 4 table
+
+- 作用：Obsidian中的表格样式一言难尽，这个css片段对表格样式进行了优化。同时调整了表格和正文的间距，可以搭配==5 line_height==使用。
+- 效果图：
+
+![image](https://github.com/Zzzhxxxx/Obsidian-Css-Share/assets/131342513/59e04f27-2497-4590-b28c-d69ffaf9d1d9)
+
+# 5 line_height
+
+- 作用：调整预览模式和编辑模式的行间距/标题间距等等。
+- 效果图：这个不太好展示，您可以使用后自行感受。
