@@ -31,7 +31,7 @@
 
 ![image](https://github.com/Zzzhxxxx/Obsidian-Css-Share/assets/131342513/fe611a47-8a80-4ab3-83ef-1ee96945dad2)
 
-- 需要注意的是，分割线样式在注释里。如果您觉得分割线样式更适合您，可以手动去掉注释。
+- Note that the split line style is in the comments. If you feel that the split line style suits you better, you can remove the comment manually.
 
 # 4 table
 
