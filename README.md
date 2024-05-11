@@ -35,7 +35,7 @@
 
 # 4 table
 
-- 作用：Obsidian中的表格样式一言难尽，这个css片段对表格样式进行了优化。同时调整了表格和正文的间距，可以搭配== 5 line_height ==使用。
+- 作用：Obsidian中的表格样式一言难尽，这个css片段对表格样式进行了优化。同时调整了表格和正文的间距，可以搭配**5 line_height**使用。
 - 效果图：
 
 ![image](https://github.com/Zzzhxxxx/Obsidian-Css-Share/assets/131342513/59e04f27-2497-4590-b28c-d69ffaf9d1d9)
