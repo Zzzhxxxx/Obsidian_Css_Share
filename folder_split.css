@@ -1,9 +1,20 @@
 /*这段是卡片样式*/
 body .nav-folder.mod-root > .nav-folder-children > .nav-folder {
     border: 1px solid #aa989854;
-    margin: 5px 4px;
+    margin: 5px 4px 5px 4px;
     border-radius: 3px;
-    border-left: 2px solid #83b4cd54;
+    border-left: 3px solid #9abbd3;
+}
+
+.nav-file-title:hover,
+.nav-folder-title:hover,
+.nav-file-title-content:hover,
+.nav-folder-title-content:hover,
+.nav-file-title.is-active,
+.nav-folder-title.is-active,
+.nav-file-title-content.is-active,
+.nav-folder-title-content.is-active {
+    background: linear-gradient(to right, transparent 5px, #4684b1 50px) !important;
 }
 
 /*这段是分割线样式*/
@@ -15,3 +26,11 @@ body .nav-folder.mod-root > .nav-folder-children > .nav-folder {
     background: var(--tab-outline-color);
     margin: 5px 0 5px -15px;
 }*/
+
+/*一些优化 不用care*/
+.tree-item-self.is-clickable.nav-file-title.has-focus,
+.tree-item-self.is-clickable.nav-folder-title.has-focus,
+.tree-item-self.is-clickable.nav-file-title-content.has-focus,
+.tree-item-self.is-clickable.nav-folder-title-content.has-focus {
+    box-shadow: none !important;
+}
