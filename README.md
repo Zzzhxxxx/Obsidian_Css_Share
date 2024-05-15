@@ -18,14 +18,14 @@
 
 ![image](https://github.com/Zzzhxxxx/Obsidian-Css-Share/assets/131342513/1c6f25a7-9660-4c8e-8480-cb5ef909b4a2)
 
-# 3 floder_split
+# 3 folder_split
 
 - 作用：对所有一级文件夹进行分割。
 - 效果图：css代码里提供了两种样式。 
 
 - 卡片样式：
 
-![image](https://github.com/Zzzhxxxx/Obsidian-Css-Share/assets/131342513/2b2b74e6-6129-4553-b932-602a736c17dd)
+![image](https://github.com/Zzzhxxxx/Obsidian-Css-Share/assets/131342513/f118575c-4c13-4f14-8ef6-d140aeecc60a)
 
 - 分割线样式：
 
