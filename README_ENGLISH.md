@@ -18,14 +18,14 @@
 
 ![image](https://github.com/Zzzhxxxx/Obsidian-Css-Share/assets/131342513/1c6f25a7-9660-4c8e-8480-cb5ef909b4a2)
 
-# 3 floder_split
+# 3 folder_split
 
 - Function: Splits all first-level folders.
 - Rendering: Two styles are provided in the css code. 
 
 - Card Style:
 
-![image](https://github.com/Zzzhxxxx/Obsidian-Css-Share/assets/131342513/2b2b74e6-6129-4553-b932-602a736c17dd)
+![image](https://github.com/Zzzhxxxx/Obsidian-Css-Share/assets/131342513/a7d1307d-4394-47fb-8926-3472037186e9)
 
 - Split Line Style:
 
